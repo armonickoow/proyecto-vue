@@ -3,7 +3,7 @@
         <v-carousel-item v-for="(banner, i) in banners" :key="i">
             <v-img height="100%" :src="banner.img">
                 <v-row class="fill-height" align="center" justify="center">
-                    <div class="text-h2 white--text">
+                    <div class="text-h3 white--text text-center">
                         <strong>{{ banner.title }}</strong>
                     </div>
                 </v-row>

@@ -26,10 +26,11 @@
       </div>
 
       <v-spacer></v-spacer>
-
-      <v-btn to="/" text><v-icon>mdi-home-floor-0</v-icon> <span class="mr-2">Home</span></v-btn>
-      <v-btn to="/products" text><v-icon>mdi-flower-outline</v-icon> <span class="mr-2">Products</span></v-btn>
-      <v-btn to="/contact" text><v-icon>mdi-contacts</v-icon> <span class="mr-2">Contact</span></v-btn>
+      
+        <v-btn to="/" text><v-icon>mdi-home-floor-0</v-icon> <span class="mr-2">Home</span></v-btn>
+        <v-btn to="/products" text><v-icon>mdi-flower-outline</v-icon> <span class="mr-2">Products</span></v-btn>
+        <v-btn to="/contact" text><v-icon>mdi-contacts</v-icon> <span class="mr-2">Contact</span></v-btn>
+        
     </v-app-bar>
   </v-container>
 </template>

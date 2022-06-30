@@ -1,7 +1,12 @@
 <template>
   <div>
-    <banner-comp></banner-comp>
-    <nav-bar></nav-bar>
+    <v-row justify="center">
+        <v-col cols="11">
+          <banner-comp></banner-comp>
+          <nav-bar></nav-bar>
+        </v-col>
+    </v-row>
+    
     
     <v-row justify="center" class="mt-2">
       <v-col cols="11">
