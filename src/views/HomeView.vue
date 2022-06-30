@@ -1,7 +1,7 @@
 <template>
   <div>
-    <v-row justify="center">
-        <v-col cols="11">
+    <v-row>
+        <v-col cols="12">
           <banner-comp></banner-comp>
           <nav-bar></nav-bar>
         </v-col>
