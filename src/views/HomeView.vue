@@ -8,7 +8,7 @@
   import NavBar from '../components/NavBar'
 
   export default {
-    name: 'Home',
+    name: 'HomeView',
 
     components: {
     NavBar,

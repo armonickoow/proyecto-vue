@@ -4,18 +4,18 @@
     <v-main>
       <router-view/>
     </v-main>
-    <Footer></Footer>
+    <footer-comp></footer-comp>
     
   </v-app>
 </template>
 
 <script>
-import Footer from './components/Footer'
+import FooterComp from './components/FooterComp'
 
 export default {
   name: 'App',
   components: {
-      Footer,
+      FooterComp,
     },
 
   data: () => ({

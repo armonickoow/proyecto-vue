@@ -1,14 +1,12 @@
 <template>
-    <div>
-        <nav-bar></nav-bar>
-        <h1>
-            Aqui estaran mis productos
-        </h1>
-    </div>
+  
+  <div class="about">
+    <nav-bar></nav-bar>
+    <h1 class="text-center">Aca estara mi contacto</h1>
+  </div>
 </template>
 
 <script>
-
     import NavBar from '../components/NavBar'
 
     export default{
@@ -18,6 +16,3 @@
     }
 </script>
 
-<style>
-
-</style>

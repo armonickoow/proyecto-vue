@@ -12,13 +12,13 @@ const routes = [
   },
   {
     path: '/Contact',
-    name: 'Contact',
-    component: () => import(/* webpackChunkName: "about" */ '../views/Contact.vue')
+    name: 'ContactMe',
+    component: () => import(/* webpackChunkName: "about" */ '../views/ContactMe.vue')
   },
   {
     path: '/Products',
-    name: 'Products',
-    component: () => import(/* webpackChunkName: "about" */ '../views/Products.vue')
+    name: 'ProductsList',
+    component: () => import(/* webpackChunkName: "about" */ '../views/ProductsList.vue')
   },
   {
     path: '/*',
